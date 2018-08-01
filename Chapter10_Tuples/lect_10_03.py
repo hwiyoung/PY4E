@@ -1,0 +1,4 @@
+# List comprehension
+print('Ascending sort order by value using List comprehesion')
+c = {'a':10, 'b':1, 'c':22}
+print( sorted( [ (v,k) for k,v in c.items() ] ) )
